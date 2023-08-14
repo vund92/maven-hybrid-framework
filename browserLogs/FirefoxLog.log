@@ -1,0 +1,20 @@
+1691105892195	geckodriver	INFO	Listening on 127.0.0.1:55828
+1691105892410	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\WELCOME\\AppData\\Local\\Temp\\rust_mozprofileQVJayp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691105892813	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1691105893112	Marionette	INFO	Listening on port 61850
+Read port: 61850
+[Parent 27364, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24808, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+1691105912147	Marionette	INFO	Stopped listening on port 61850
+Dynamically enable window occlusion 1
+[Parent 27364, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24808, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 27364, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24808, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 27364, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 24808, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443

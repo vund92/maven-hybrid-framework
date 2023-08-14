@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [NopCommerce - User]">
+  <parameter name="envName" value="local"/>
+  <parameter name="serverName" value="dev"/>
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig.AllureTestListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Run on CHROME(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nopcommerce.user.Level_24_Browser_Factory">
+        <methods>
+          <include name="User_03_My_Account"/>
+          <include name="User_01_Register"/>
+          <include name="afterClass"/>
+          <include name="User_02_Login"/>
+          <include name="initBeforeSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.user.Level_24_Browser_Factory -->
+    </classes>
+  </test> <!-- Run on CHROME(failed) -->
+  <test thread-count="2" parallel="tests" name="Run on FIREFOX(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.nopcommerce.user.Level_24_Browser_Factory">
+        <methods>
+          <include name="User_03_My_Account"/>
+          <include name="User_01_Register"/>
+          <include name="afterClass"/>
+          <include name="User_02_Login"/>
+          <include name="initBeforeSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.user.Level_24_Browser_Factory -->
+    </classes>
+  </test> <!-- Run on FIREFOX(failed) -->
+</suite> <!-- Failed suite [NopCommerce - User] -->

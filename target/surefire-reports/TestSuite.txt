@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 21.576 s <<< FAILURE! - in TestSuite
+User_01_Register(com.nopcommerce.user.Level_21_Multiple_Environment_Parameter)  Time elapsed: 13.105 s  <<< FAILURE!
+java.lang.AssertionError: expected [Your registration completed...] but found [Your registration completed]
+	at com.nopcommerce.user.Level_21_Multiple_Environment_Parameter.User_01_Register(Level_21_Multiple_Environment_Parameter.java:76)
+
+User_02_Login(com.nopcommerce.user.Level_21_Multiple_Environment_Parameter)  Time elapsed: 1.458 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at com.nopcommerce.user.Level_21_Multiple_Environment_Parameter.User_02_Login(Level_21_Multiple_Environment_Parameter.java:103)
+
